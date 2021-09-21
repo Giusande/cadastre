@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png);
+  background-image: url(https://i.imgur.com/XbRg9D7.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed
@@ -32,7 +32,7 @@ body {
 h1{
   text-align: center;
   margin-bottom: 20px;
-  color:#000000
+  color: #0d009c
 }
 
 .label-float input{
@@ -40,7 +40,7 @@ h1{
   padding: 5px 5px;
   display: inline-block;
   border: 0;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #0d009c;
   background-color: transparent;
   outline: none;
   min-width: 180px;
@@ -58,11 +58,11 @@ h1{
 }
 
 .label-float input:focus{
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #4038a0;
 }
 
 .label-float label{
-  color: #000000;
+  color: #0d009c;
   pointer-event: none;
   position: absolute;
   top: 0;
@@ -80,8 +80,8 @@ h1{
 
 button{
   background-color: transparent;
-  border-color: #000000;
-  color: #ffffff;
+  border-color: #0d009c;
+  color: #0d009c;
   padding: 7px;
   font-weight: bold;
   font-size: 12pt;
@@ -93,7 +93,7 @@ button{
 }
 
 button:hover{
-  background-color: #000000;
+  background-color: #0d009c;
   color: #fff;
 }
 
@@ -107,13 +107,13 @@ button:hover{
   top: 15px;
   right: 10px;
   cursor: pointer;
-  color: #000000;
+  color: #0d009c;
 }
 
 #msgError{
   text-align: center;
-  color: #000000;
-  background-color: #ffffff;
+  color: #ff0000;
+  background-color: #ffbbbb;
   padding: 10px;
   border-radius: 4px;
   display: none;
@@ -121,12 +121,11 @@ button:hover{
 
 #msgSuccess{
   text-align: center;
-  color: #000000;
-  background-color: #ffffff;
+  color: #00bb00;
+  background-color: #bbffbe;
   padding: 10px;
   border-radius: 4px;
   display: none;
 }
-
 
 
