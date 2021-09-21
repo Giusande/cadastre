@@ -98,7 +98,7 @@ function cadastrar(){
     msgError.innerHTML = ''
     
     setTimeout(()=>{
-        window.location.href = 'https://cdpn.io/Giugiu1/debug/qBjxGKP/LQMExgDygwZk'
+        window.location.href = 'https://giusande.github.io/Giusande/'
     }, 3000)
   
     
