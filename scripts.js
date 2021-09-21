@@ -90,7 +90,7 @@ function cadastrar(){
     )
     
     localStorage.setItem('listaUser', JSON.stringify(listaUser))
-   
+    
    
     msgSuccess.setAttribute('style', 'display: block')
     msgSuccess.innerHTML = '<strong>Cadastrando usuário...</strong>'
@@ -98,7 +98,7 @@ function cadastrar(){
     msgError.innerHTML = ''
     
     setTimeout(()=>{
-        window.location.href = 'https://giusande.github.io/Giusande/'
+        window.location.href = 'https://giusande.github.io/Giusande/ '
     }, 3000)
   
     
@@ -134,4 +134,3 @@ btnConfirm.addEventListener('click', ()=>{
 
   
   
-
